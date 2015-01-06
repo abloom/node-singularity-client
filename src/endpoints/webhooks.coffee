@@ -7,6 +7,7 @@ module.exports = (request) ->
     request '/webhooks', {
       method: 'POST'
       json: payload
+      parseJSON: false
     }, cb
 
   delete: (hook, uri, cb) ->
