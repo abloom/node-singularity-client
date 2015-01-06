@@ -1,0 +1,29 @@
+{
+  "name": "singularity_client",
+  "version": "0.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "coffee -cbo lib src",
+    "watch": "coffee -wcbo lib src",
+    "prerelease": "rm -rf lib && npm run build",
+    "pretest": "npm run build",
+    "posttest": "npub verify"
+  },
+  "publishConfig": {
+    "registry": "http://npm-registry.snc1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.groupondev.com:abloom/singularity_client.git"
+  },
+  "author": "Andrew Bloom",
+  "license": "Private",
+  "dependencies": {
+    "gofer": "^2.1.4"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.8.0",
+    "npub": "^0.5.1"
+  }
+}
