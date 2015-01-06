@@ -1,5 +1,5 @@
 module.exports = (request) ->
-  add: (hook, uri, cb) ->
+  create: (hook, uri, cb) ->
     payload =
       uri: "#{uri}/#{hook}"
       type: hook.toUpperCase()
