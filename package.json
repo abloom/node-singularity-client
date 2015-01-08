@@ -11,7 +11,7 @@
     "posttest": "npub verify"
   },
   "publishConfig": {
-    "registry": "http://npm-registry.snc1"
+    "registry": "https://registry.npmjs.org/"
   },
   "repository": {
     "type": "git",
