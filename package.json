@@ -11,7 +11,13 @@
     "posttest": "npub verify"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/",
+    "license": {
+      "exclude": [
+        "lib",
+        "src"
+      ]
+    }
   },
   "repository": {
     "type": "git",
