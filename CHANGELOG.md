@@ -1,3 +1,7 @@
+0.0.3
+-----
+* Fixing some release issues
+
 0.0.2
 -----
 * don't parse the response, it's not json
