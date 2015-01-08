@@ -1,6 +1,6 @@
 {
   "name": "singularity-client",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Gofer based Singularity API Client",
   "main": "lib/index.js",
   "scripts": {
