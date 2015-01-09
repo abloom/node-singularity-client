@@ -10,6 +10,7 @@ Singularity::addOptionMapper (opts) ->
   @applyBaseUrl "#{opts.baseUrl}/api", opts
 
 Singularity::registerEndpoints
+  requests: require './endpoints/requests'
   webhooks: require './endpoints/webhooks'
 
 module.exports = Singularity
