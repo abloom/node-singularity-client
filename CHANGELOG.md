@@ -1,3 +1,8 @@
+0.1.0
+-----
+* Add deploy endpoints
+* Add request endpoints
+
 0.0.4
 -----
 * update package description
