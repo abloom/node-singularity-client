@@ -13,5 +13,6 @@ Singularity::registerEndpoints
   deploys:  require './endpoints/deploys'
   requests: require './endpoints/requests'
   webhooks: require './endpoints/webhooks'
+  history: require './endpoints/history'
 
 module.exports = Singularity
