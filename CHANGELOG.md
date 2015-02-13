@@ -1,3 +1,7 @@
+0.2.0
+-----
+* Add support for task history - @mcculloughsean #2
+
 0.1.0
 -----
 * Add deploy endpoints
